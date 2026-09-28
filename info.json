@@ -1,0 +1,19 @@
+{
+    "keyboard_name": "Custom Macropad",
+    "features": {
+        "bootmagic": true,
+        "extrakey": true,
+        "mousekey": true,
+        "encoder": true
+    },
+    "matrix_pins": {
+        "direct": [
+            ["GP8", "GP9", "GP10", "GP5", "GP6", "GP7", "GP2", "GP3", "GP4"]
+        ]
+    },
+    "encoder": {
+        "rotary": [
+            { "pin_a": "GP28", "pin_b": "GP29" }
+        ]
+    }
+}
